@@ -22,7 +22,8 @@ img {
 }
 
 .logo,
-.quote-source {
+.quote-source,
+.modal-header {
     font-size: 24px;
     font-weight: 900;
     color: #f9faf8;
@@ -61,7 +62,7 @@ a,
     margin-bottom: 16px;
 }
 
-.text {
+.hero-information .text {
     margin-bottom: 16px;
 }
 
@@ -71,12 +72,12 @@ button {
     font-weight: 700;
     padding: 8px 36px;
     border-radius: 8px;
+    background: #3882f6;
+    color: #e5e7eb;
 }
 
 button.sign-up {
     border-style: none;
-    background: #3882f6;
-    color: #e5e7eb;
 }
 
 img.item-image {
@@ -138,3 +139,37 @@ img.item-image {
     color: #1f2937;
     align-self: flex-end;
 }
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 160px;
+}
+
+.modal-container {
+    width: 100%;
+    display: flex;
+    background: #3882f6;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    margin: 100px 0;
+}
+
+button.sign-up-modal {
+    border: 2px solid white;
+}
+
+.footer {
+    background: #1f2937;
+    padding: 24px 160px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+
+
+
